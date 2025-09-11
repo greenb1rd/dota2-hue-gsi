@@ -1,0 +1,46 @@
+{
+  "name": "dota2-hue-gsi",
+  "version": "1.0.0",
+  "description": "Real-time synchronization between Dota 2 game events and Philips Hue smart lights",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "setup": "tsx scripts/setup.ts",
+    "test": "echo \"No tests yet\"",
+    "lint": "tsc --noEmit"
+  },
+  "keywords": [
+    "dota2",
+    "philips-hue",
+    "gsi",
+    "game-state-integration",
+    "smart-lights",
+    "gaming",
+    "rgb",
+    "iot"
+  ],
+  "author": "greenb1rd",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/greenb1rd/dota2-hue-gsi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/greenb1rd/dota2-hue-gsi/issues"
+  },
+  "homepage": "https://github.com/greenb1rd/dota2-hue-gsi#readme"
+}
