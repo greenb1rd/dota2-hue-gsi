@@ -20,11 +20,6 @@ Sync Philips Hue lights with Dota 2 matches. Pulses red on kills, rainbow on ram
 - **Low Health** - Urgent red breathing effect when health drops below 20%
 - **Victory/Defeat** - Rainbow celebration or blue fade at game end
 
-### Real-time Synchronization
-- Zero-lag response using Dota 2's official Game State Integration
-- Automatic game detection and connection
-- Multiple light support for immersive room-wide effects
-
 ## Prerequisites
 
 - **Dota 2** (Steam)
@@ -89,7 +84,7 @@ cp gamestate_integration_hue.cfg ~/.steam/steam/steamapps/common/dota\ 2\ beta/g
 npm start
 ```
 
-Launch Dota 2 and enjoy synchronized lighting in your matches!
+Launch Dota 2
 
 ## Development
 
@@ -140,20 +135,3 @@ graph LR
 - Verify you're on the same network as Hue Bridge
 - Test Hue API access: `http://<bridge-ip>/api/<username>/lights`
 
-## Contributing
-
-We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
-
-## License
-
-MIT License - see [LICENSE](LICENSE) for details.
-
-## Acknowledgments
-
-- Valve for Dota 2 Game State Integration API
-- Philips Hue for their comprehensive smart lighting API
-- The Dota 2 community for inspiration
-
----
-
-**Not affiliated with Valve Corporation or Signify (Philips Hue)**
