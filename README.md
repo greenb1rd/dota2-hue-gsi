@@ -7,8 +7,7 @@
 [![Philips Hue](https://img.shields.io/badge/Philips%20Hue-API%20v2-orange)](https://developers.meethue.com/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
-Sync your Philips Hue lights with Dota 2 matches. Pulses red on kills, rainbow on rampages, fades on death. Real-time GSI integration for immersive gaming.
-
+Sync Philips Hue lights with Dota 2 matches. Pulses red on kills, rainbow on rampages, fades on death.
 ## Features
 
 ### Dynamic Light Effects
